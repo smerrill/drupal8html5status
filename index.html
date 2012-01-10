@@ -49,7 +49,36 @@
   <div id="semantics" class="step" data-x="2600" data-y="4500" data-scale="4" data-rotate="60">
     <p class="title">Semantics</p>
   </div>
-
+  <div id="semantic-article" class="step" data-x="1600" data-y="3500" data-scale="2" data-rotate="60">
+   <p class="title">Article</p>
+   <span class="old"><code>&lt;div id="node-n" class="article"&gt;... &lt;/div&gt;</code>
+   <span class="new"><code>&lt;article id="node-n"&gt;...&lt;/article&gt;"</code></span>
+   <a class="issue fixed" href="http://drupal.org/node/1077602">#1077602: Convert node.tpl.php to HTML5</a>
+  </div>
+  <div id="semantic-comment=" class="step" data-x="2200" data-y="4531" data-scale="2" data-rotate="60">
+    <p class="title">Comments</p>
+    <span class="old"><code>&lt;div class="comment"&gt;... &lt;/div&gt;</code>
+    <span class="new"><code>&lt;article class=comment"&gt;... &lt;/article&gt;</code>
+    <a class="issue fixed" href="http://drupal.org/node/1189816">#1189816: Convert comment.tpl.php to HTML5</a>
+  </div>
+  <div id="sementic-page" class="step" data-x="2750" data-y="5574" data-scale="2" data-rotate="60">
+   <p class="title">Page</p>
+   <span class="old"><code>
+       &lt;div id="page"&gt;<br />
+       &nbsp;&nbsp;&lt;div id="header"&gt;...&lt;/div&gt;<br />
+       &nbsp;&nbsp;&lt;div id="navigation"&gt;...&lt;/div&gt;<br />
+       &nbsp;&nbsp;&lt;div id="footer"&gt;...&lt;/div&gt;<br />
+      &lt;/div&gt;
+   </code></span>
+   <span class="new"><code>
+    &lt;div id="page"&gt;<br />
+    &nbsp;&nbsp;&lt;header role="banner"&gt;...&lt;/header&gt;<br />
+    &nbsp;&nbsp;&lt;nav role="navigation"&gt;...&lt;/nav&gt;<br />
+    &nbsp;&nbsp;&lt;footer role="contentinfo"&gt;...&lt;/footer&gt;<br />
+    &lt;/div&gt;
+   </code></span>
+   <a class="issue fixed" href="http://drupal.org/node/1077578">#1077578: Convert comment.tpl.php to HTML5</a>
+ </div>
   <div id="last" class="step slide" data-x="100" data-y="1500">
     <p class="title">About</p>
     <p>Presentation for <a href="http://www.drupalcampnj.org/">DrupalCampNJ</a></p>

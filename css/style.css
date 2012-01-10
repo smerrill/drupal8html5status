@@ -545,3 +545,15 @@ code {
  font-size: 22px;
  line-height: 30px;
 }
+
+#semantics .title {
+ text-align: center;
+ font-size: 80px;
+ line-height: 90px;
+ margin-bottom: 20px;
+}
+
+#sementic-page code {
+ font-size: 22px;
+ float: left;
+}
