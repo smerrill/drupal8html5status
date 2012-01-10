@@ -13,3 +13,5 @@ About This presentation
 -----------------------
 
 This presentation was build using Impress.js [https://github.com/bartaz/impress.js].
+
+Note: Conference isn't till Feb 4, 2012. So these slides are pretty much draft till then ;-)
