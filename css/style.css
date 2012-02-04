@@ -498,6 +498,10 @@ a:hover {
 
 
 /** Custom **/
+:invalid {
+  border: 1px solid red;
+}
+
 #intro {
  text-align: center;
 }
@@ -556,4 +560,12 @@ code {
 #sementic-page code {
  font-size: 22px;
  float: left;
+}
+
+#forms-elements, #forms-attributes  {
+ font-size: 22px;
+}
+
+.small {
+  font-size: 20px;
 }

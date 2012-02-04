@@ -55,7 +55,7 @@
    <span class="new"><code>&lt;article id="node-n"&gt;...&lt;/article&gt;"</code></span>
    <a class="issue fixed" href="http://drupal.org/node/1077602">#1077602: Convert node.tpl.php to HTML5</a>
   </div>
-  <div id="semantic-comment=" class="step" data-x="2200" data-y="4531" data-scale="2" data-rotate="60">
+  <div id="semantic-comment" class="step" data-x="2200" data-y="4531" data-scale="2" data-rotate="60">
     <p class="title">Comments</p>
     <span class="old"><code>&lt;div class="comment"&gt;... &lt;/div&gt;</code>
     <span class="new"><code>&lt;article class=comment"&gt;... &lt;/article&gt;</code>
@@ -87,6 +87,66 @@
    <p>Oh we also ugraded to the latest version of jQuery. So no need for the innerShiv</p>
    <a class="issue fixed" href="http://drupal.org/node/1328900">#1328900: Update to jQuery 1.7.</a>
  </div>
+
+ <div id="forms" class="step" data-x="808" data-y="6533" data-scale="2" data-rotate="120">
+   <p class="title">Forms</p>
+ </div>
+ <div id="forms-elements" class="step" data-x="808" data-y="6533" data-scale="1" data-rotate="120">
+  <p class="title">Form Elements</p>
+    email: <input type="email" placeholder="email" /> <a class="issue" href="http://drupal.org/node/1174620">#1174620: Add new HTML5 FAPI element: email</a><br />
+    url: <input type="url" placeholder="url" /> <a class="issue" href="http://drupal.org/node/1174630">#1174630: Add new HTML5 FAPI element: url</a><br />
+    search: <input type="search" placeholder="search" /><a class="issue" href="http://drupal.org/node/1174628">#1174628: Add new HTML5 FAPI element: search</a><br />
+    tel: <input type="tel" placeholder="tel" /><a class="issue fixed" href="http://drupal.org/node/1174634">#1174634: Add new HTML5 FAPI element: telephone</a><br />
+    number: <input type="number" placeholder="1234" /><a class="issue" href="http://drupal.org/node/1174640">#1174640: Add new HTML5 FAPI element: number</a><br />
+    range: <input type="range"/><a class="issue" href="http://drupal.org/node/1174646">#1174646: Add new HTML5 FAPI element: range</a><br />
+    <br />
+    <br />
+    <br />
+    <br />
+ </div>
+ <div id="forms-attributes" class="step" data-x="541" data-y="6372" data-scale="1" data-rotate="120">
+  <p class="title">Form Attributes</p>
+    placeholder: <input type="text" placeholder="Placeholder?" /><a class="issue" href="http://drupal.org/node/1174694">#1174694: Allow FAPI usage of the placeholder attribute</a><br />
+    pattern: <input type="text" pattern="[0-9]{3}-[a-c]{2}" placeholder="[0-9]{3}-[a-c]{2}"/> <a class="issue" href="http://drupal.org/node/1174766">#1174766: Support the pattern attribute</a><br />
+    required: <input type="text" required="required" /><a class="issue" href="http://drupal.org/node/1174938">#1174938: support the HTML5 #required FAPI property</a><br />
+    formnovalidate: <a class="issue" href="http://drupal.org/node/1174938">#1174938: support the HTML5 #required FAPI property</a><br />
+    <br />
+    <br />
+    <span>All available in Drupal 6/7 with <a href="http://drupal.org/project/html5_tools">html5_tools</a></span>
+ </div>
+
+
+ <div id="other" class="step" data-x="20" data-y="8300" data-scale="2" data-rotate="180">
+   <p class="title">Other random stuff</p>
+ </div>
+ <div id="other-cssresize" class="step" data-x="541" data-y="8000" data-scale="1" data-rotate="180">
+  <p class="title">Css3 resize attributes</p>
+    <textarea style="resize: both; overflow: auto; height: 150px;">
+    {
+      resize: both;
+      overflow: auto;
+    }
+    </textarea>
+    <textarea style="height: 150px; resize: vertical; overflow: auto;">
+    {
+      resize: vertical;
+      overflow: auto;
+    }
+    </textarea><br />
+    <textarea style="height: 150px; resize: horizontal; overflow: auto; max-width: 400px;">
+    {
+      resize: horizontal;
+      overflow: auto;
+      max-width: 400px;
+    }
+    </textarea>
+    <br />
+    <a class="issue small" href="http://drupal.org/node/1138258">#1138258: Drop textarea.js in favor of CSS3 resize</a></span>
+    <br />
+ </div>
+
+
+
  <div id="last" class="step slide" data-x="100" data-y="1500">
     <p class="title">About</p>
     <p>Presentation for <a href="http://www.drupalcampnj.org/">DrupalCampNJ</a></p>
