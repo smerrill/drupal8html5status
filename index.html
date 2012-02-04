@@ -21,6 +21,9 @@
     <p>Eric J. Duran</p>
     <a href="https://twitter.com/ericjduran" class="twitter-follow-button" data-show-count="false" data-lang="en" data-width="125px">Follow @ericjduran</a>
     </div>
+    <a href="http://www.w3.org/html/logo/" class="logo">
+      <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-device-graphics-multimedia-performance-semantics.png" width="293" height="64" alt="HTML5 Powered with CSS3 / Styling, Device Access, Graphics, 3D &amp; Effects, Multimedia, Performance &amp; Integration, and Semantics" title="HTML5 Powered with CSS3 / Styling, Device Access, Graphics, 3D &amp; Effects, Multimedia, Performance &amp; Integration, and Semantics">
+    </a>
   </div>
 
   <div class="step slide" data-x="1000" data-y="0">
@@ -31,6 +34,7 @@
     <ul>
       <li><a href="http://www.html5rocks.com/">HTML5 Rocks</a></li>
       <li><a href="http://diveintohtml5.info/">Dive into HTML5</a></li>
+      <li><a href="http://caniuse.com//">Can I use</a></li>
       <li><a href="https://www.google.com/#q=html5">Way too many for me to list</a></li>
   </div>
 
@@ -82,6 +86,13 @@
  <div class="step" data-x="2119" data-y="6625" data-rotate="120">
    <p>What about ie? </p>
    <span class="shiv">  SHIV!!!!</span>
+   <img src="" alt="Drupal HTML 5 Logo" width="350px" id="shiv-ie" onclick="shiv();"/>
+   <script>
+    function shiv() {
+      var ie = document.getElementById('shiv-ie');
+      ie.src = 'img/ieshiv.gif';
+    }
+   </script>
    <br />
    <a class="issue fixed" href="http://drupal.org/node/1077878">#1077878: Added HTML5shiv to core</a>
    <p>Oh we also ugraded to the latest version of jQuery. So no need for the innerShiv</p>
@@ -152,7 +163,6 @@
     &lt;video src="..../Ara_chloroptera.ogg" &gt; <br />
     css: <br />
     -webkit-box-reflect: right 10px;<br />
-    -webkit-gradient;
   </code>
   <br />
   <a class="issue small" href="http://drupal.org/node/1138258">#1138258: Rich media display with <video> and <audio> HTML5 elements</a></span>

@@ -569,3 +569,11 @@ code {
 .small {
   font-size: 20px;
 }
+
+.logo {
+  float: left;
+}
+
+.logo img {
+  margin: 0;
+}
